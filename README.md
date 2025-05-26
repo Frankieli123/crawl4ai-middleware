@@ -2,6 +2,12 @@
 
 这是一个MCP（模型上下文协议）服务器，用于将crawl4ai的网页抓取功能集成到支持MCP的应用程序中，如Cursor IDE。
 
+## 版本信息
+
+- 版本：1.0.0
+- 更新日期：2025-05-26
+- 作者：Frankie
+
 ## 功能
 
 该服务器提供以下工具：
@@ -62,4 +68,4 @@ pip install mcp[cli] httpx
 1. "请帮我抓取网页 https://example.com"
 2. "请获取任务ID为 abc123 的抓取结果"
 3. "请列出已保存的抓取结果文件"
-4. "请读取文件 extracted_example_com_abc123.txt 的内容" 
+4. "请读取文件 extracted_example_com_abc123.txt 的内容"
