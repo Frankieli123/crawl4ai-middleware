@@ -36,7 +36,8 @@ mcp = FastMCP("crawl4ai")
 log_level = os.getenv("LOG_LEVEL", "INFO")
 logging.basicConfig(
     level=getattr(logging, log_level),
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    encoding='utf-8'  # 明确指定日志编码为UTF-8
 )
 logger = logging.getLogger("crawl4ai")
 
